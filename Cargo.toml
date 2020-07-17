@@ -1,0 +1,10 @@
+[package]
+name = "warp-test"
+version = "0.1.0"
+authors = ["majorz"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2", features = ["macros"] }
+warp = "0.2"
+pretty_env_logger = "0.4"
